@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,7 @@
   "description": "",
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.6.0",
+    "@netlify/plugin-nextjs": "^5.13.3",
     "framer-motion": "^12.23.16",
     "next": "latest",
     "react": "latest",

@@ -1,17 +1,18 @@
 "use client";
-import Footer from '@/components/footer';
-import Header from '@/components/header1';
 import Head from 'next/head';
-import Product from '@/components/product'; 
+import dynamic from 'next/dynamic';
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { FaCrown, FaLock, FaHandshake, FaHome } from "react-icons/fa";
 import { MdArrowForward } from "react-icons/md";
 
+const Header = dynamic(() => import('@/components/header1'), { ssr: false });
+const Footer = dynamic(() => import('@/components/footer'), { ssr: false });
+const Product = dynamic(() => import('@/components/product'), { ssr: false });
+
 export default function Home() {
   const [counts, setCounts] = useState({ clients: 0, transactions: 0, years: 0 });
 
-  // Compteur animé
   useEffect(() => {
     let i = 0;
     const interval = setInterval(() => {

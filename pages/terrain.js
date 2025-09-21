@@ -1,9 +1,10 @@
 "use client";
 import { useState, useEffect } from 'react';
+import dynamic from 'next/dynamic';
 import { motion, AnimatePresence } from 'framer-motion';
-// import Header from '@/components/header2';
 import { FaBed, FaBath, FaRulerCombined, FaEye, FaMapMarkerAlt, FaFilter, FaPhone, FaWhatsapp } from 'react-icons/fa';
-const safeDocument = typeof document !== 'undefined' ? document : null;
+
+const Header = dynamic(() => import('@/components/header2'), { ssr: false });
 
 export default function Properties() {
   const [properties, setProperties] = useState([]);

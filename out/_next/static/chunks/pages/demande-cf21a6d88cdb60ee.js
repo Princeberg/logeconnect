@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[214],{426:(e,n,_)=>{"use strict";_.r(n),_.d(n,{default:()=>u});var d=_(7876);function u(){return(0,d.jsx)("div",{children:(0,d.jsx)("h1",{children:"Page demande"})})}},1340:(e,n,_)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/demande",function(){return _(426)}])}},e=>{e.O(0,[636,593,792],()=>e(e.s=1340)),_N_E=e.O()}]);

@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[596],{5596:(e,n,u)=>{"use strict";u.r(n),u.d(n,{default:()=>r});var _=u(7876);function r(){return(0,_.jsx)("div",{children:(0,_.jsx)("h1",{children:"Page sejour"})})}},8668:(e,n,u)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/sejour",function(){return u(5596)}])}},e=>{e.O(0,[636,593,792],()=>e(e.s=8668)),_N_E=e.O()}]);

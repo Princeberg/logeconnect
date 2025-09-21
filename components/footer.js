@@ -141,7 +141,7 @@ export default function Footer() {
 
 const styles = {
   footer: {
-    background: "linear-gradient(to bottom, #0a0a0a 0%, #000 100%)",
+    background: "linear-gradient(to bottom,rgba(10, 10, 10, 0.85) 0%, #000 100%)",
     color: "#fff",
     padding: "3rem 5% 1.5rem",
     position: "relative",
